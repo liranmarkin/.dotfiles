@@ -1,0 +1,12 @@
+installed using apt:
+
+i3
+i3lock
+rofi
+mate-power-manager
+feh
+
+rxvt-unicode
+
+
+

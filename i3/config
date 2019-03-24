@@ -13,7 +13,7 @@ font xft:URWGothic-Book 11
 exec --no-startup-id xrandr --output DVI-I-2-1 --primary --left-of eDP-1 --auto
 
 # Wallpaper
-exec --no-startup-id feh --bg-scale --randomize ~/.dotfiles/wallpapers/*
+exec --no-startup-id feh --bg-scale --randomize $HOME/.dotfiles/wallpapers/*
 
 # Gaps
 # for_window [class="^.*"] border pixel 2 
@@ -154,9 +154,12 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-}
+# bar {
+#         status_command i3status
+# }
+
+# start polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # set power-manager and volume control 
 exec --no-startup-id mate-power-manager
@@ -169,3 +172,7 @@ bindsym XF86AudioMute exec --no-startup-id amixer -q set Master toggle
 # touchpad on and off controller on laptop with Fn+<touchpad control functional key>
 bindsym XF86TouchpadOn exec --no-startup-id synclient Touchpadoff=0
 bindsym XF86TouchpadOff exec --no-startup-id synclient Touchpadoff=1
+
+# brightness control on laptop with Fn+<touchpad brightness key>
+bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 10

@@ -9,4 +9,15 @@ feh
 rxvt-unicode
 
 
+fish
+fonts-powerline
+
+
+compiled from github:
+omf
+light
+i3-gaps
+
+
+
 

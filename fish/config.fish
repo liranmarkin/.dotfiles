@@ -1,0 +1,1 @@
+alias sl=ls

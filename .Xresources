@@ -19,7 +19,7 @@
 *color7: #707880
 *color15:                         #E8E8E8
 
-URxvt.font: xft:Source Code Pro:size=11
+URxvt.font: xft:Source Code Pro for Powerline:size=11
 URxvt.depth:                      32
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false

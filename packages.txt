@@ -12,6 +12,9 @@ rxvt-unicode
 fish
 fonts-powerline
 
+ranger
+
+pavucontrol
 
 compiled from github:
 omf

@@ -17,15 +17,13 @@
 ;==========================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
-background = #222
+background = ${xrdb:background:#222}
 background-alt = #444
-;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
+foreground = ${xrdb:foreground:#dfdfdf}
 foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+primary = ${xrdb:color4:#ffb52a}
+secondary = ${xrdb:color2:#e60053}
+alert = ${xrdb:color1:#bd2c40}
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -34,12 +32,12 @@ height = 27
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 6.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+line-size = 1
 line-color = #f00
 
 border-size = 4

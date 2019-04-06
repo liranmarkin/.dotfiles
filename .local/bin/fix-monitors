@@ -1,0 +1,13 @@
+#!/bin/sh
+
+EXTERN=DVI-I-2-1
+DEFAULT=eDP-1 
+
+if (xrandr | grep "$EXTERN connected" > /dev/null)
+then 
+	# Connected at home
+	xrandr --output $EXTERN --primary --mode 1920x1080 --pos 0x0 --rotate normal --output $DEFAULT --mode 1368x768 --pos 1920x312 --rotate normal
+else
+	# Connected any other place
+	xrandr --output $DEFAULT --primary --mode 1920x1080 --pos 0x0 --rotate normal
+fi

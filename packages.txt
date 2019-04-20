@@ -5,22 +5,26 @@ i3lock
 rofi
 mate-power-manager
 feh
+lightdm
 
 rxvt-unicode
-
 
 fish
 fonts-powerline
 
+plymouth
+
 ranger
 
 pavucontrol
+python3-pip
+
+
+pip3:
+i3-py
 
 compiled from github:
-omf
+omf (oh my fish)
 light
 i3-gaps
-
-
-
-
+lightdm-webkit2-greeter (binary downloaded from "web-greeter" github)

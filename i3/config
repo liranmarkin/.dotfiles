@@ -124,6 +124,10 @@ bindsym $mod+$ctrl+Down move workspace to output down
 bindsym $mod+$ctrl+Up move workspace to output up
 bindsym $mod+$ctrl+Right move workspace to output right
 
+# switch to next / previous workspace 
+bindsym $mod+Shift+Next move container to workspace next; workspace next
+bindsym $mod+Shift+Prior move container to workspace prev; workspace prev
+
 # rename current workspace
 bindsym $mod+$ctrl+r exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
 
@@ -137,7 +141,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exit 
 # lock i3
-bindsym $mod+l exec i3lock
+bindsym $mod+l exec betterlockscreen -l blur 
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

@@ -36,9 +36,8 @@ lightdm-webkit2-greeter (binary downloaded from "web-greeter" github)
 
 ## Todos
 
-* make duplicate-monitors script and run before login
 * nice theme for polybar
 * add spotify support for polybar theme
-
+* emacs configuration
 
 

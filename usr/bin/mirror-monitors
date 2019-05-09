@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cmd="xrandr --noprimary";
+
+echo $cmd
+
+for monitor in $(xrandr | grep -aoP ".+ (?=connected)" )
+do
+	cmd="$cmd --output $monitor --mode 1920x1080 --pos 0x0 --rotate normal";
+done
+
+eval $cmd

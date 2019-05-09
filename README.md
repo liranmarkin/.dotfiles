@@ -36,8 +36,7 @@ lightdm-webkit2-greeter (binary downloaded from "web-greeter" github)
 
 ## Todos
 
+* udev rules for fix-monitors on display plugged in/out
 * nice theme for polybar
 * add spotify support for polybar theme
 * emacs configuration
-
-

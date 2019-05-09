@@ -36,8 +36,7 @@ lightdm-webkit2-greeter (binary downloaded from "web-greeter" github)
 
 ## Todos
 
-* make login screen on all displays
-* make fix-monitors start at login
+* make duplicate-monitors script and run before login
 * nice theme for polybar
 * add spotify support for polybar theme
 * lock screen with [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)

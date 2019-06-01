@@ -33,10 +33,14 @@ omf (oh my fish)
 light
 i3-gaps
 lightdm-webkit2-greeter (binary downloaded from "web-greeter" github)
+betterlockscreen
+
+### Misc
+spacemacs configuration for emacs
 
 ## Todos
 
-* udev rules for fix-monitors on display plugged in/out
-* nice theme for polybar
-* add spotify support for polybar theme
-* emacs configuration
+- udev rules for fix-monitors on display plugged in/out
+- add spotify module herbew support
+- notification theme
+- sync wallpaper and color schemes for everything (Xresources and "wal")

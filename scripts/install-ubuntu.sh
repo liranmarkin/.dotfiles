@@ -2,7 +2,7 @@
 # apt packages
 sudo apt install -y i3 i3lock rofi mate-power-manager feh lightdm
 sudo apt install -y rxvt-unicode fish fonts-powerline
-sudo apt install -y plymouth
+sudo apt install -y plymouth redshift
 sudo apt install -y ranger pavucontrol python3-pip
 
 # pip packages

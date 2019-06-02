@@ -44,3 +44,5 @@ spacemacs configuration for emacs
 - add spotify module herbew support
 - notification theme
 - sync wallpaper and color schemes for everything (Xresources and "wal")
+- make install script
+

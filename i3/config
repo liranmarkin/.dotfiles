@@ -192,3 +192,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
 # Screenshot binding
 bindsym --release Print exec --no-startup-id gnome-screenshot
 bindsym --release Shift+Print exec --no-startup-id gnome-screenshot -a
+
+
+# Release super key (Workaround Lenovo problem)
+bindsym $mod+m exec --no-startup-id xdotool keyup super

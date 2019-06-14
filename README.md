@@ -41,8 +41,8 @@ spacemacs configuration for emacs
 ## Todos
 
 - udev rules for fix-monitors on display plugged in/out
-- add spotify module herbew support
+- add spotify module herbew support & play / stop / next buttons
 - notification theme
-- sync wallpaper and color schemes for everything (Xresources and "wal")
+- sync wallpaper and color schemes for everything (Xresources, rasi and "wal")
 - make install script
 
